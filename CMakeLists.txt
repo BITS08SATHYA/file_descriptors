@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(file_descriptors main.cpp
         fds/source_files/open.c
-        fds/source_files/read.c)
+        fds/source_files/read.c
+        fds/source_files/write.c
+)
