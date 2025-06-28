@@ -7,4 +7,5 @@ add_executable(file_descriptors main.cpp
         fds/source_files/open.c
         fds/source_files/read.c
         fds/source_files/write.c
+        fds/source_files/seek.c
 )

@@ -13,7 +13,7 @@ int main(){
 
     strcpy(buf, "This is example of O_APPEND:\n");
 
-    int fd = open("output.txt", O_WRONLY | O_CREAT | O_APPEND, 0774);
+    int fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC);
 
     if (fd < 0){
         perror("Error Occured during open");
