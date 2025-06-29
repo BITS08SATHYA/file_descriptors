@@ -1,0 +1,2 @@
+Writing using file descriptor obtained from dup() system call 
+writing using original file descriptor obtained from open() system call 
